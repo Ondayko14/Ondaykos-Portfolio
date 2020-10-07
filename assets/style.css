@@ -94,15 +94,15 @@ header nav ul li {
     color: #3D405B;
     font-size: 25px;  
     line-height: 1.7; 
-    background: red;
 }
 
 /* work */
 .work-grid-wrapper {
-    margin-top: 150px;
+    margin: 100px 30px 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 30px 30px;
 }
 
 .item1 {
@@ -113,21 +113,26 @@ header nav ul li {
 
 .item2 {
     background: url("./images/placeholder.jpg");
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column: 3/ 3;
+    grid-row: 1 / 1;
 }
 
 .item3 {
     background: url("./images/placeholder.jpg");
-
+    grid-column: 3/ 3;
+    grid-row: 2/ 2;
 }
 
 .item4 {
     background: url("./images/placeholder.jpg");
+    grid-column: 1/ 1;
+    grid-row: 3/ 3;
 }
 
 .item5 {
     background: url("./images/placeholder.jpg");
+    grid-column: 2/ 2;
+    grid-row: 3/ 3;
 }
 
 
@@ -149,10 +154,6 @@ header nav ul li {
  .background-img-placement {
     background-size: cover;
     background-position: center;
- }
-
- .bigger-work {
-    height: 500px;
  }
 
  .smaller-work {
