@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: #F4F1DE;
+}
+
 /* Header */
 header {
     display: flex;
@@ -37,6 +41,17 @@ header nav ul li {
     color: #F4F1DE;
     margin: 0 10px;
 }
+
+/* hero */
+
+/* article */
+article {
+
+}
+
+
+
+
 
 /* utility classes */
  .bottom-list-border {
