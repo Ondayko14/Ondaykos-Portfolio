@@ -62,16 +62,58 @@ header nav ul li {
     padding:  10px 85px;
     text-align: center;
 }
-/* article */
-article {
 
+/* content wrapper */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 50px 10px 50px;
+    
 }
 
+/* labels */
+.labels {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    font-size: 45px;
+    text-align: right;
+    justify-content: space-between;
+}
 
+.section-label1 {
+    margin-top: 0;
+}
 
+/* right side */
+.right-side {
+    margin-left: 100px;
+    padding: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* article */
+.about-me-wrapper p {
+    color: #3D405B;
+    font-size: 25px;  
+    line-height: 1.7; 
+    background: red;
+}
 
 
 /* utility classes */
  .bottom-list-border {
     border-bottom: 1px solid #F4F1DE;
+ }
+
+ .left-border {
+    border-left: 1px solid #F2CC8F;
+ }
+
+ .section-label {
+     font-size: 40px;
+     color: #3D405B;
+     font-weight: bold;
  }
