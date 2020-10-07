@@ -135,6 +135,35 @@ header nav ul li {
     grid-row: 3/ 3;
 }
 
+.smaller-work {
+    height: 250px;
+}
+
+.placement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.text-squares {
+    background: #3D405B;
+    width: 70%;
+    height: 100px;
+    margin-bottom: 45px;
+}
+
+.text-squares h4 {
+    color: #F4F1DE;
+    font-size: 30px;
+}
+
+.text-squares {
+    color: #F2CC8F;
+    font-size: 28px;
+    text-align: center;
+}
+
 
 /* utility classes */
  .bottom-list-border {
@@ -154,8 +183,4 @@ header nav ul li {
  .background-img-placement {
     background-size: cover;
     background-position: center;
- }
-
- .smaller-work {
-     height: 250px;
  }
