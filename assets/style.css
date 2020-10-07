@@ -65,7 +65,7 @@ header nav ul li {
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 90px 50px 10px 50px;
+    margin: 100px 50px 10px 50px;
     
 }
 
@@ -79,6 +79,30 @@ header nav ul li {
     justify-content: space-between;
 }
 
+.labels h3 {
+    color: #3D405B;
+}
+
+.section-label1 {
+    height: 4.5em;
+}
+
+.section-label2 {
+    height:20em;
+    margin-bottom: 1em;
+}
+
+.section-label3 {
+    height: 5em;
+}
+
+.section-label2 h3 {
+    padding-top: 1em;
+}
+
+.section-label3 h3 {
+    padding-top: 0.5em;
+}
 /* right side */
 .right-side {
     margin-left: 50px;
@@ -98,7 +122,7 @@ header nav ul li {
 
 /* work */
 .work-grid-wrapper {
-    margin: 100px 30px 0 0;
+    margin: 140px 30px 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -217,4 +241,9 @@ footer a {
  .background-img-placement {
     background-size: cover;
     background-position: center;
+ }
+
+ .border-right {
+     border-right: 5px solid #F2CC8F;
+     padding-right: 0.3em;
  }
