@@ -42,11 +42,21 @@ header nav ul li {
     margin: 0 10px;
 }
 
+header nav ul li:hover {
+    color: #F4F1DE;
+    background: #E07A5F;
+    border: 2px solid #F2CC8F;
+    border-radius:  10px;
+    font-size: 27px;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+
 /* hero */
 .hero {
     width: 100%;
     height: 500px;
-    background: url("./images/placeholder.jpg");
+    background: url("./images/Brandon.png");
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -55,7 +65,7 @@ header nav ul li {
 .hero h2 {
     font-size: 45px;
     margin: 0 50px 50px 0;
-    background: #3D405B;
+    background: #E07A5F;
     color: #F4F1DE;
     padding:  10px 85px;
     text-align: center;
@@ -133,30 +143,60 @@ header nav ul li {
     background: url("./images/placeholder.jpg");
     grid-column: 1/ span 2;
     grid-row: 1/ span 2;
+    position: relative;
+}
+
+.item1:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item2 {
     background: url("./images/placeholder.jpg");
     grid-column: 3/ 3;
     grid-row: 1 / 1;
+    position: relative;
+}
+
+.item2:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item3 {
     background: url("./images/placeholder.jpg");
     grid-column: 3/ 3;
     grid-row: 2/ 2;
+    position: relative;
+}
+
+.item3:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item4 {
     background: url("./images/placeholder.jpg");
     grid-column: 1/ 1;
     grid-row: 3/ 3;
+    position: relative;
+}
+
+.item4:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item5 {
     background: url("./images/placeholder.jpg");
     grid-column: 2/ 2;
     grid-row: 3/ 3;
+    position: relative;
+}
+
+.item5:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .smaller-work {
@@ -206,7 +246,17 @@ footer ul li {
     font-weight: bold;
     color: #3D405B;
     margin: 0 40px;
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+footer ul li:hover {
+    color: #F4F1DE;
+    background: #3D405B;
+    border: 2px solid #E07A5F;
+    border-radius:  10px;
+    font-size: 42px;
+    transition: 0.5s;
+    padding-top: 10px;
 }
 
 footer a {
@@ -221,11 +271,11 @@ footer a {
 
 /* utility classes */
 .bottom-list-border-footer {
-    border-bottom: 3px solid #3D405B;
+    border-bottom: 3px solid #E07A5F;
 }
 
  .bottom-list-border {
-    border-bottom: 2px solid #F4F1DE;
+    border-bottom: 2px solid #E07A5F;
  }
 
  .left-border {
