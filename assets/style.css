@@ -43,10 +43,10 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    color: #3D405B;
-    background: #F4F1DE;
+    color: #F4F1DE;
+    background: #E07A5F;
     border: 2px solid #F2CC8F;
-    border-radius:  10%;
+    border-radius:  10px;
     font-size: 27px;
     transition: 0.5s;
     padding-top: 5px;
@@ -56,7 +56,7 @@ header nav ul li:hover {
 .hero {
     width: 100%;
     height: 500px;
-    background: url("./images/placeholder.jpg");
+    background: url("./images/Brandon.png");
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -65,7 +65,7 @@ header nav ul li:hover {
 .hero h2 {
     font-size: 45px;
     margin: 0 50px 50px 0;
-    background: #3D405B;
+    background: #E07A5F;
     color: #F4F1DE;
     padding:  10px 85px;
     text-align: center;
@@ -252,7 +252,7 @@ footer ul li {
 footer ul li:hover {
     color: #F4F1DE;
     background: #3D405B;
-    border: 2px solid #F2CC8F;
+    border: 2px solid #E07A5F;
     border-radius:  10px;
     font-size: 42px;
     transition: 0.5s;
@@ -271,11 +271,11 @@ footer a {
 
 /* utility classes */
 .bottom-list-border-footer {
-    border-bottom: 3px solid #3D405B;
+    border-bottom: 3px solid #E07A5F;
 }
 
  .bottom-list-border {
-    border-bottom: 2px solid #F4F1DE;
+    border-bottom: 2px solid #E07A5F;
  }
 
  .left-border {
