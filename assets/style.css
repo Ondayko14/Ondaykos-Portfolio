@@ -42,6 +42,15 @@ header nav ul li {
     margin: 0 10px;
 }
 
+header nav ul li:hover {
+    color: #3D405B;
+    background: #F4F1DE;
+    border: 2px solid #F2CC8F;
+    border-radius:  10%;
+    font-size: 27px;
+    transition: 0.5s;
+}
+
 /* hero */
 .hero {
     width: 100%;
