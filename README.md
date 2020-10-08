@@ -1,8 +1,8 @@
 # Ondaykos-Portfolio
 This is a portfolio website that I built for myself. It has funtioning Links, Media Queries, Animations, and meets accesibilty standards.
-![The hero with a picture of a man with brown hair, brown eyes, and glasses.](./assets/images/Screenshot1 "Header and Hero")
-![The Work Section. Five unique projects listed in a grid](./assets/images/Screenshot2 "Work Section")
-![The Contact Section. Three labels; Phone Number, Email, and Github](./assets/images/Screenshot3 "Contact")
+![The hero with a picture of a man with brown hair, brown eyes, and glasses.](./assets/images/Screenshot1.png "Header and Hero")
+![The Work Section. Five unique projects listed in a grid](./assets/images/Screenshot2.png "Work Section")
+![The Contact Section. Three labels; Phone Number, Email, and Github](./assets/images/Screenshot3.png "Contact")
 
 ## Tecnologies Used
 Html and Css
