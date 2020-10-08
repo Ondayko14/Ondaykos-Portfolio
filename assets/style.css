@@ -148,7 +148,7 @@ header nav ul li:hover {
 
 .item1:hover {
     background-position: left;
-    transition: 1s;
+    transition: 2s;
 }
 
 .item2 {
@@ -160,7 +160,7 @@ header nav ul li:hover {
 
 .item2:hover {
     background-position: left;
-    transition: 1s;
+    transition: 2s;
 }
 
 .item3 {
@@ -172,7 +172,7 @@ header nav ul li:hover {
 
 .item3:hover {
     background-position: left;
-    transition: 1s;
+    transition: 2s;
 }
 
 .item4 {
@@ -184,7 +184,7 @@ header nav ul li:hover {
 
 .item4:hover {
     background-position: left;
-    transition: 1s;
+    transition: 2s;
 }
 
 .item5 {
@@ -196,7 +196,7 @@ header nav ul li:hover {
 
 .item5:hover {
     background-position: left;
-    transition: 1s;
+    transition: 2s;
 }
 
 .smaller-work {
