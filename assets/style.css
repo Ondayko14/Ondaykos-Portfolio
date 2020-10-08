@@ -49,6 +49,7 @@ header nav ul li:hover {
     border-radius:  10%;
     font-size: 27px;
     transition: 0.5s;
+    padding-top: 5px;
 }
 
 /* hero */
@@ -142,30 +143,60 @@ header nav ul li:hover {
     background: url("./images/placeholder.jpg");
     grid-column: 1/ span 2;
     grid-row: 1/ span 2;
+    position: relative;
+}
+
+.item1:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item2 {
     background: url("./images/placeholder.jpg");
     grid-column: 3/ 3;
     grid-row: 1 / 1;
+    position: relative;
+}
+
+.item2:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item3 {
     background: url("./images/placeholder.jpg");
     grid-column: 3/ 3;
     grid-row: 2/ 2;
+    position: relative;
+}
+
+.item3:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item4 {
     background: url("./images/placeholder.jpg");
     grid-column: 1/ 1;
     grid-row: 3/ 3;
+    position: relative;
+}
+
+.item4:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .item5 {
     background: url("./images/placeholder.jpg");
     grid-column: 2/ 2;
     grid-row: 3/ 3;
+    position: relative;
+}
+
+.item5:hover {
+    background-position: left;
+    transition: 1s;
 }
 
 .smaller-work {
@@ -215,7 +246,17 @@ footer ul li {
     font-weight: bold;
     color: #3D405B;
     margin: 0 40px;
-    padding-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+footer ul li:hover {
+    color: #F4F1DE;
+    background: #3D405B;
+    border: 2px solid #F2CC8F;
+    border-radius:  10px;
+    font-size: 42px;
+    transition: 0.5s;
+    padding-top: 10px;
 }
 
 footer a {
