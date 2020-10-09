@@ -347,4 +347,11 @@ footer a {
      .text-squares-big p {
          display: block;
      }
+
+    @media only screen and (max-width: 1300px) {
+        .text-squares {
+            width: auto;
+            height: auto;
+        }
     }
+ }
